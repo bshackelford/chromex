@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "",
+  "description": "",
+  "homepage_url": "https://github.com/bshackelford/chromex",
+  "version": "0.0.1",
+
+  "minimum_chrome_version": "50",
+  "permissions": [
+    ""
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        ""
+      ],
+      "css": [
+        "content.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
